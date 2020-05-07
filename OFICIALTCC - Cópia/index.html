@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>EMEB Oscar Augusto Guelli</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/w3.css" />  
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+/* Full height image header */
+.bgimg-1 { 
+    background-position: center;
+    background-size: cover;
+    background-image: url("IMGescola/17.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">HOME</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#sobre" class="w3-bar-item w3-button"> <i class="fa fa-bars"></i> SOBRE</a>
+      <a href="#eventos" class="w3-bar-item w3-button"><i class="fa fa-cloud"></i> EVENTOS</a>
+      <a href="#galeria" class="w3-bar-item w3-button"><i class="fa fa-th"></i> GALERIA</a>
+      <a href="#bairro" class="w3-bar-item w3-button"><svg style="width:18px;height:18px" viewBox="0 0 18 18"><path fill="#000000" d="M19,15H17V13H19M19,19H17V17H19M13,7H11V5H13M13,11H11V9H13M13,15H11V13H13M13,19H11V17H13M7,11H5V9H7M7,15H5V13H7M7,19H5V17H7M15,11V5L12,2L9,5V7H3V21H21V11H15Z" /></svg>   O BAIRRO</a>
+      <a href="#contato" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTATO</a>
+      <a href="#login" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Login</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#sobre" onclick="w3_close()" class="w3-bar-item w3-button">SOBRE</a>
+  <a href="#eventos" onclick="w3_close()" class="w3-bar-item w3-button">EVENTOS</a>
+  <a href="#galeria" onclick="w3_close()" class="w3-bar-item w3-button">GALERIA</a>
+  <a href="#bairro" onclick="w3_close()" class="w3-bar-item w3-button">O BAIRRO</a>
+  <a href="#contato" onclick="w3_close()" class="w3-bar-item w3-button">CONTATO</a>
+  <a href="#login" class="w3-bar-item w3-button"><i class="fa fa-user"></i> LOGIN</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container " id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"> <b>EMEB Oscar Augusto Guelli</b></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">EMEB Oscar Augusto Guelli</span><br>
+    <span class="w3-large">A Escola que seu filho merece.</span>
+   <!-- <p><a href="#login" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LOGIN</a></p> -->
+    
+      
+  </div> 
+ 
+</header>
+    
+    
+    
+    
+
+<!-- SOBRE -->
+<div class="w3-container" style="padding:128px 90px" id="sobre">
+  <h3 class="w3-center">SOBRE A ESCOLA</h3>
+  <p class="w3-center w3-large">Um pouco de nossa história</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <img src="IMGescola/4.jpg"  style="width:25%" class="w3-btn" onclick="onClick(this)" class="w3-hover-opacity" alt="Entrada da escola">
+      <img src="IMGescola/11.jpg"  style="width:25%"  class="w3-btn" onclick="onClick(this)" class="w3-hover-opacity" alt="Pátio da escola">
+      
+      <br>
+      <br>
+      <p>Localizada na tranquila Avenida João Batista Spiandorello, 2151 - Roseira, Jundiaí, no estado de São Paulo, a Escola Municipal  "EMEB PROFESSOR OSCAR AUGUSTO GUELLI" foi fundada em 13 de Setembro de 1981 e tem como um de seus pilares proporcionar um ensino de qualidade.</p>
+      
+      <p> O nome da escola é em homenagem ao professor e delegado Oscar Augusto Guelli (1898-1974), que ao longo de sua vida colaborou com artigos e poesias para jornais, publicando diversas obras. Devemos ao professor Guelli a instalação da Delegacia de Ensino de Jundiaí, 12 de março de 1942, sendo o Primeiro Delegado Regional de Jundiaí. Foi membro da Associação Paulista de Imprensa e da Associação Brasileira de Escritores. </p>
+      
+      <p>Oferecemos planos de ensino do Jardim à 4ª série. Nosso principal objetivo é a educação inspirada nos princípios e ideais de liberdade e solidariedade humana, visando o pleno desenvolvimento da criança e seu preparo para o exercício da cidadania.</p>
+
+      <p>No dia a dia, a Escola preza pelas características individuais de cada criança, de forma que ela possa se expressar, brincar, aprender e progredir nas diversas áreas de conhecimento de forma respeitosa e segura e de acordo com os valores culturais e os princípios do Referencial Curricular Nacional para a Educação Infantil.</p>
+      
+      <br>
+      <br>
+      <br>
+      
+    <div class="w3-quarter">
+      <i class="material-icons w3-margin-bottom w3-jumbo w3-center">vpn_key</i>
+      <p class="w3-large">Missão</p>
+      <p>Ajudar nossas crianças a melhorar a qualidade da experiência individual durante seus primeiros anos. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Proposta</p>
+      <p> Fazer com que a criança poça ampliar as suas idéias, interagindo com o meio, com colegas e professores</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="material-icons w3-margin-bottom w3-jumbo">filter_vintage</i>
+      <p class="w3-large">Objetivo</p>
+      <p>Oferecer um programa de qualidade, com atividades bem planejadas em um ambiente cheio de estímulos. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="material-icons w3-margin-bottom w3-jumbo">verified_user</i>
+      <p class="w3-large">Desejo</p>
+      <p>Que os pais sintam-se confiantes em deixar seu filho conosco.</p>
+    </div>
+    
+      
+  </div>
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- EVENTOS -->
+    
+    
+<div class="w3-container" style="padding:128px 16px" id="eventos">
+  <h3 class="w3-center">EVENTOS</h3>
+  <p class="w3-center w3-large">Fique por dentro de nossas aventuras</p>
+  <div class="w3-row-padding " style="margin-top:64px">
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMGescola/28.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Dia da Horta</h3>
+          <p class="w3-opacity">Ambiental</p>
+          <p>No dia 03 de Agosto de 2018, a escola "EMEB Oscar Augusto Guelli" realiza o Dia da Horta com os alunos.</p>
+        </div>
+      </div>
+    </div>
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMGescola/18.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Indicações de Livros</h3>
+          <p class="w3-opacity">Literatura</p>
+          <p>No dia 23 de Agosto de 2018, a escola realiza o Projeto de Indicações de Livros com os alunos terceiros anos.</p>
+        </div>
+      </div>
+    </div>
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMGescola/19.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Projeto Fotografia</h3>
+          <p class="w3-opacity">Arte Visual</p>
+          <p>No dia 30 de Agosto de 2018, a escola "EMEB Oscar Augusto Guelli" realiza o Projeto Fotografia com os alunos.</p>
+        </div>
+      </div>
+    </div>
+      
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMGescola/16.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Biblioteca Ativa</h3>
+          <p class="w3-opacity">Leitura</p>
+          <p>No dia 01 de Setembro de 2018, a escola "EMEB Oscar Augusto Guelli" realiza a Biblioteca Ativa com os alunos.</p>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+<!-- GALERIA -->
+    
+    
+<div class="w3-container" style="padding:128px 16px" id="galeria">
+  <h3 class="w3-center">GALERIA</h3>
+  <p class="w3-center w3-large">Confira nossos melhores momentos</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Entrada da escola">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/13.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pátio externo">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Entrada da escola">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/14.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pátio interno">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+      
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/15.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Refeitório">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/16.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Biblioteca">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/20.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quadra">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMGescola/29.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Parquinho">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- O BAIRRO -->
+<div class="w3-container" style="padding:128px 90px" id="bairro">
+  <h3 class="w3-center">SOBRE O BAIRRO</h3>
+  <p class="w3-center w3-large">Um pouco de nosso bairro</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <img src="IMGescola/32.jpg"  style="width:25%"  class="w3-btn" onclick="onClick(this)" class="w3-hover-opacity" alt="Bairro da escola">
+      <img src="IMGescola/31.jpg"  style="width:25%"  class="w3-btn" onclick="onClick(this)" class="w3-hover-opacity" alt="Bairro da escola">
+      
+      <br>
+      <br>
+      <p>O nome de Roseira, dado ao bairro tem origem a uma roseira branca que existia e ainda existe, é um bairro tipicamente rural, com uma rica bacia hisrográfica e com várias nascentes, o que evidência a necessidade da preservação ambiental.</p>
+      
+      <p>Como todo bairro tem necessidade de melhorias, segundo reunião dos moradores do bairro da Roseira com o prefeito Luiz Fernando Machado que, acompanhado dos gestores debateram melhorias para o bairro nas áreas do seneamento básico, mobilidade, transporte, educação, saúde, serviços públicos e agricultura.</p>
+
+     
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+   
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+<!-- CONTATO -->
+    
+    
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contato">
+  <h3 class="w3-center">CONTATO</h3>
+  <p class="w3-center w3-large">Vamos entrar em contato. Envie-nos uma mensagem:</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-half">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> 	Avenida Joao Batista Spiandorello, 2151 - Roseira <br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Jundiaí - SP - CEP: 13218-880</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: +55 11 4584-3009</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: emeboguelli@jundiai.sp.gov.br</p>
+      <br>
+      <form name="forminclui" method="POST" action="mensagem.php">
+        <p><input class="w3-input w3-border" type="text" placeholder="Nome" required= "yes" name="nome"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Email" required= "yes" name="email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Telefone" required= "yes" name="telefone"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Mensagem" required= "yes" name="mensagem"></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane" name="Enviar"></i> Enviar
+          </button>
+        </p>
+      </form> 
+    </div>
+    <div class="w3-half">
+      <!-- Add Google Maps -->
+        <div id="googleMap" class="w3-greenscale borda" style="width:100%;height:450px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1834.3705012735315!2d-46.819914441896046!3d-23.143140329861165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ced8718e240d3b%3A0x8537fe75b3354eb3!2sEMEB+Oscar+Augusto+Guelli!5e0!3m2!1spt-BR!2sbr!4v1533911701102" width="100%" height="510px" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </div>
+  </div>
+</div>
+      
+
+      
+   
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- LOGIN -->
+    
+    
+<div class="w3-container w3-dark-grey w3-center " style="padding:128px 128px" id="login">
+  <h3 class="w3-center">LOGIN</h3>
+  <p class="w3-center w3-large">Saiba como está o desenvolvimento de seu filho</p>
+    
+  <div class="w3-card-4 w3-dark-grey">
+
+<div class="w3-container w3-center">
+ <br>
+        
+         <form class="w3-container w3-center" action="logar.php" method="POST">
+        
+
+     
+        <div class="w3-section">
+          <label><b>Nome Completo do Cadastro</b></label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Ex.: Willian Bonner" name="nome" required>
+          <label><b>Senha</b></label>
+          <input class="w3-input w3-border" type="password" placeholder="Digite sua senha" name="senha" required>
+            <br>
+          <input class="w3-radio" type="radio" name="tipo" value="Aluno" checked>
+            <label>Aluno</label> 
+      &nbsp &nbsp
+          <input class="w3-radio" type="radio" name="tipo" value="Professor">
+            <label>Professor</label>
+      &nbsp &nbsp
+          <input class="w3-radio" type="radio" name="tipo" value="Secretaria">
+            <label>Gestão</label>  
+          <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit" name="Logar" value="Logar">Login</button>
+
+        </div>       
+        
+      </form>
+    
+     
+    <br>
+    </div>
+ 
+  </div>
+</div>
+    
+    
+      
+         
+      
+      
+      
+      
+    
+    
+    
+    
+    
+<!-- RODAPÉ -->
+    
+    
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Volte para o TOPO</a>
+
+</footer>
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!-- Add Google Maps -->
+<script>
+
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+    } else {
+        mySidebar.style.display = 'block';
+    }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+    
+    
+    
+    
+//   http://escolafofinho.com.br/
+//   https://www.ceceducarte.com.br/historia/
+//   http://tiamari.com.br/noticias
+//   https://www.w3schools.com/w3css/tryw3css_templates_startup.htm#about
+//   https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_modal_login
+//   https://nsa.cps.sp.gov.br/
+    
+    
+    
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
